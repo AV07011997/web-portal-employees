@@ -16,7 +16,6 @@ app.use(cors())
 
 mongoose.connect("mongodb://localhost:27017/myloginDB" , {
     useNewUrlParser: true,
-    useCreateIndex: true,
     useUnifiedTopology: true
 }, () => {
     console.log("DB connected")
